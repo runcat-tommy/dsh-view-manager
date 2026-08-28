@@ -15,6 +15,10 @@ tabs contributed through the `conversation.view` slot (e.g. **对话 / Chat**,
 - **跟随语言**：插件文案随 DSH 界面语言自动切换（zh / en）
 - **本地存储**：配置保存在浏览器 localStorage，即时生效，无需重启
 
+## 效果预览 Preview
+
+![逃咪-视图管理](assets/逃咪-视图管理.png)
+
 ## 安装 Install
 
 **方式一：本地安装（推荐）**——克隆或下载本项目后，进入项目文件夹执行：

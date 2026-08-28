@@ -17,6 +17,10 @@ tabs contributed through the `conversation.view` slot (e.g. **Chat / 对话**,
 - **Local storage**: configuration lives in browser localStorage and applies
   immediately — no restart needed
 
+## Preview
+
+![Runcat-Views](assets/Runcat-Views.png)
+
 ## Install
 
 **Option 1: local install (recommended)** — clone or download this repo, then

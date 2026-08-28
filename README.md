@@ -17,23 +17,28 @@ tabs contributed through the `conversation.view` slot (e.g. **对话 / Chat**,
 
 ## 安装 Install
 
+**方式一：本地安装（推荐）**——克隆或下载本项目后，进入项目文件夹执行：
+
 ```sh
-dsh plugin --profile web add dsh-view-manager
+cd dsh-view-manager
+dsh plugin --profile web add .
 ```
 
-或从 GitHub 安装：
+> 说明：本插件尚未发布到 npm 市场，直接执行 `dsh plugin add dsh-view-manager` 会因找不到包而无效；使用 `add .` 会以本地链接方式安装，代码更新后重启 Web UI 即可生效。
+
+**方式二：从 GitHub 安装**：
 
 ```sh
-dsh plugin --profile web add github:<your-org>/dsh-view-manager
+dsh plugin --profile web add github:runcat-tommy/dsh-view-manager
 ```
 
 安装后**重启 Web UI**，打开任意会话，在会话页头右侧会出现
-**⚙ 视图管理** 按钮，点击即可打开管理面板。
+**⚙ 逃咪-视图管理** 按钮，点击即可打开管理面板。
 
 ## 使用 Usage
 
 1. 打开一个会话（对话或轨迹界面）
-2. 会话页头最右侧点击 **⚙ 视图管理**
+2. 会话页头最右侧点击 **⚙ 逃咪-视图管理**
 3. 面板中每个视图一行：
    - 开关：启用/停用（停用 = 隐藏标签）
    - `原名`：当前默认名称（跟随语言）

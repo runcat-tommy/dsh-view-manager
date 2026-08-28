@@ -19,23 +19,32 @@ tabs contributed through the `conversation.view` slot (e.g. **Chat / 对话**,
 
 ## Install
 
+**Option 1: local install (recommended)** — clone or download this repo, then
+run from inside the project folder:
+
 ```sh
-dsh plugin --profile web add dsh-view-manager
+cd dsh-view-manager
+dsh plugin --profile web add .
 ```
 
-or from GitHub:
+> Note: this plugin is not yet published to the npm registry, so
+> `dsh plugin add dsh-view-manager` would fail (package not found). Using
+> `add .` installs it as a local link; after updating the code, restart the
+> Web UI to pick up changes.
+
+**Option 2: install from GitHub**:
 
 ```sh
-dsh plugin --profile web add github:<your-org>/dsh-view-manager
+dsh plugin --profile web add github:runcat-tommy/dsh-view-manager
 ```
 
 **Restart the Web UI** after installing, then open any session — a
-**⚙ Views** button appears at the far right of the session header.
+**⚙ Runcat-Views** button appears at the far right of the session header.
 
 ## Usage
 
 1. Open a session (Chat or Trajectory)
-2. Click **⚙ Views** at the far right of the session header
+2. Click **⚙ Runcat-Views** at the far right of the session header
 3. Each view gets one row:
    - Toggle: enable / disable (disabled = tab hidden)
    - `Original`: the default label (follows the UI language)

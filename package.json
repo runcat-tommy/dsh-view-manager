@@ -1,7 +1,11 @@
 {
   "name": "dsh-view-manager",
-  "description": "Manage the conversation view tabs (对话/轨迹/…) in the DeepSeek Harness Web GUI: enable, hide, reorder and rename view labels, with locale-aware copy (zh/en).",
-  "version": "0.1.0",
+  "description": "Manage the conversation view tabs (对话/轨迹/…) in the DeepSeek Harness Web GUI: enable, hide, reorder and rename view labels, with locale-aware copy (zh/en) and npm update reminders.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/runcat-tommy/dsh-view-manager"
+  },
+  "version": "0.2.0",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -25,12 +29,24 @@
         "@deepseek-ai/dsh-client-ui-slots",
         "@deepseek-ai/dsh-client-ui-conversation"
       ]
+    },
+    "marketplace": {
+      "source": "github",
+      "repo": "runcat-tommy/dsh-view-manager"
     }
   },
   "files": [
     "cordis.patch.yml",
     "lib/index.js",
     "lib/client.js"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "view-manager",
+    "cordis",
+    "plugin"
   ],
   "license": "MIT"
 }

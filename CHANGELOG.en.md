@@ -1,6 +1,22 @@
 # CHANGELOG
 
-## [0.2.0] - 2025-01-XX
+## [0.2.1] - 2026-09-14
+
+### ✨ Added
+
+- Added `screenshots.json`, declaring the marketplace preview images (one
+  zh-UI and one en-UI screenshot) for plugin-marketplace detail pages
+
+### 🔧 Fixed
+
+- Corrected the `0.2.0` entry date in this file: the placeholder
+  `2025-01-XX` is now `2026-09-01`, matching the git history
+
+### 📦 Release
+
+- Published to npmjs: `dsh-view-manager@0.2.1`
+
+## [0.2.0] - 2026-09-01
 
 ### ✨ Added
 
